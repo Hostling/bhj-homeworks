@@ -19,7 +19,7 @@ class Game {
   registerEvents() {
 
   	document.addEventListener("keypress", (e) => {
-  		e.key.toUpperCase == this.currentSymbol.textContent.toUpperCase ? this.success() : this.fail();
+  		e.key.toUpperCase() == this.currentSymbol.textContent.toUpperCase() ? this.success() : this.fail();
   	})
 
   }
