@@ -20,7 +20,7 @@ checkboxes.forEach((chB) => {
           parentChB.checked = false;
           break;
         case 1:
-          parentChB.indeterminate = true;
+          parentChB.checked = true;
           break;
         case 2:
           parentChB.checked = true;
